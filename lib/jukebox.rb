@@ -1,19 +1,4 @@
 # Add your code here
-songs = [
-  "Phoenix - 1901",
-  "Tokyo Police Club - Wait Up",
-  "Sufjan Stevens - Too Much",
-  "The Naked and the Famous - Young Blood",
-  "(Far From) Home - Tiga",
-  "The Cults - Abducted",
-  "Phoenix - Consolation Prizes",
-  "Harry Chapin - Cats in the Cradle",
-  "Amos Lee - Keep It Loose, Keep It Tight"
-]
-
-
-
-run(songs)
 def "CLI Jukebox"
   def help
     puts help : displays this help message
@@ -22,4 +7,19 @@ def "CLI Jukebox"
     puts exit : exits this program
 
   end
-end
+
+  def list
+    puts list of songs you can play
+    :songs => [
+      "Phoenix - 1901",
+      "Tokyo Police Club - Wait Up",
+      "Sufjan Stevens - Too Much",
+      "The Naked and the Famous - Young Blood",
+      "(Far From) Home - Tiga",
+      "The Cults - Abducted",
+      "Phoenix - Consolation Prizes",
+      "Harry Chapin - Cats in the Cradle",
+      "Amos Lee - Keep It Loose, Keep It Tight"
+    ]
+  end
+  
