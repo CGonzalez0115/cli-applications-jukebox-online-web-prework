@@ -16,3 +16,9 @@ def "CLI Jukebox"
   end
 
   def play
+    puts "Please enter a song name or number:"
+    if "user's response is valid" do
+      puts "Playing <song name>"
+      if "user's response is invalid" do
+        puts "Invalid input, please try again"
+    end
