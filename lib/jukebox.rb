@@ -23,4 +23,3 @@ def "CLI Jukebox"
 
   end
 end
-    
